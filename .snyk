@@ -1,0 +1,11 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:marked:20150520':
+    - marked:
+        patched: '2016-07-06T12:05:51.910Z'
+    - url-extractor > marked:
+        patched: '2016-07-06T12:05:51.910Z'
+  'npm:minimatch:20160620':
+    - markdown-contents > contents > babel > babel-core > minimatch:
+        patched: '2016-07-06T12:05:51.910Z'
